@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.banner {
+    padding: 15px;
+    background-color: darkcyan;
+    height: 400px;
+    background-image: url(./images/bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    color: crimson;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.nav {
+    padding: 15px;
+    background-color: lightslategray;
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.nav a {
+    padding: 10px;
+    background-color: lightseagreen;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+.nav a:hover {
+    background-color: lightsalmon;
+}
+
+
+.veg-card {
+    padding: 15px;
+    background-color: lightskyblue;
+    width: 200px;
+    height: 250px;
+    border: 2px solid white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.veg-card img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+#vegetables {
+    padding: 15px;
+    background-color: lightseagreen;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.fruit-card {
+    width: 400px;
+    height: 150px;
+    border: 4px solid white;
+
+    display: flex;
+    gap: 15px;
+    padding: 5px;
+    align-items: center;
+}
+
+.fruit-card img {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+}
+
+#fruits {
+    padding: 15px;
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer{
+    padding: 15px;
+    background-color: red;
+    text-align: center;
+}
+
+.recipe-card {
+    padding: 15px;
+    background-color: darkcyan;
+    border: 4px solid white;
+    width: 400px;
+    height: 600px;
+
+    transition: all 500ms;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.recipe-card ul {
+    margin-left: 15px;
+}
+
+
+.recipe-card:hover {
+    transform: scale(1.1);
+    background-color: lightcoral;
+    box-shadow: 10px 10px 10px black;
+}
+
+#recipes {
+    padding: 15px;
+    background-color: lightsalmon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
