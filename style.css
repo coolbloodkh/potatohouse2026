@@ -178,3 +178,12 @@ html{
     border: 5px solid white;
     border-radius: 15px;
 }
+
+#location {
+    text-align: center;
+    padding: 15px;
+}
+
+iframe {
+    width: 500px;
+}
